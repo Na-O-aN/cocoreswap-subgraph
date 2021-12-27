@@ -55,3 +55,20 @@ This query fetches aggredated data from all uniswap pairs and tokens, to give a 
   }
 }
 ```
+
+
+
+## Deploy MEMO
+
+Global install @graphprotocol/graph-cli@0.16.0
+
+Once command
+```shell
+graph auth --product hosted-service <ACCESS_TOKEN>
+```
+
+```shell
+yarn codegen
+yarn build
+yarn deploy
+```
